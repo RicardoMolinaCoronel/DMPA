@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent {
-  description: string = 'Descripción del proyecto 7'; /* Cambie el texto con la descripción de su proyecto */
+  description: string = 'Creación de un proyecto de consulta de pedidos de clientes mediante Angular y Express'; 
 }
