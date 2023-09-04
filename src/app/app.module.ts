@@ -17,6 +17,10 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 import { HttpClientModule } from  '@angular/common/http';
 import { MatTableModule } from '@angular/material/table';
 import {MatSelectModule} from '@angular/material/select';
+import {FormsModule} from '@angular/forms';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+import {NgFor} from '@angular/common';
 
 
 
@@ -40,7 +44,11 @@ import {MatSelectModule} from '@angular/material/select';
     BrowserAnimationsModule,
     HttpClientModule,
     MatTableModule,
-    MatSelectModule
+    MatSelectModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    NgFor
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
 })
 export class MainComponent {
  constructor(private dataProvider: ProveedorService) { }
-displayedColumns: string[] = ['idcliente', 'direccion'];
+displayedColumns: string[] = ['idcliente', 'nombre','correo','direccion'];
 public data : Cliente[] = [];
 ngOnInit() {
       this.dataProvider.getResponse().subscribe((response) => { 
